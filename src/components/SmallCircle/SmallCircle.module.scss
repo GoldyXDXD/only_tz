@@ -1,0 +1,66 @@
+.pag {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 6px;
+    height: 6px;
+    text-align: center;
+    font-size: 0;
+    opacity: 1;
+    border-radius: 50%;
+    border: 1px solid rgba(48, 62, 88, 0);
+    background-color: var(--black-blue);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.pag_text {
+    position: absolute;
+    left: 74px;
+    font-weight: 700;
+    font-size: 0;
+    line-height: 30px;
+    color: var(--black-blue);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.pag:hover {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    color: var(--black-blue);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    background: var(--grey);
+    border: 1px solid rgba(48, 62, 88, 0.5);
+}
+
+.pag_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+}
+
+.active {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    color: var(--black-blue);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    background: var(--grey);
+    border: 1px solid rgba(48, 62, 88, 0.5);
+    cursor: default;
+}

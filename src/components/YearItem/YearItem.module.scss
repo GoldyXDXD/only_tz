@@ -1,0 +1,61 @@
+.year_container {
+    margin-left: 218px;
+
+    @media (max-width: 820px) {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (max-width: 1400px) {
+        margin-left: 158px;
+    }
+
+    @media (max-width: 1060px) {
+        margin-left: 120px;
+    }
+}
+
+.year {
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 80%;
+    letter-spacing: -0.02em;
+    color: var(--iris);
+
+    &:first-child {
+        margin-right: 96px;
+
+        @media (max-width: 1700px) {
+            margin-right: 72px;
+        }
+
+        @media (max-width: 1060px) {
+            margin-right: 41px;
+        }
+
+        @media (max-width: 820px) {
+            margin-right: 26px;
+        }
+    }
+
+    &:last-child {
+        color: var(--fuschia);
+    }
+
+    @media (max-width: 1700px) {
+        font-size: 150px;
+    }
+
+    @media (max-width: 1400px) {
+        font-size: 120px;
+    }
+
+    @media (max-width: 1060px) {
+        font-size: 85px;
+    }
+
+    @media (max-width: 820px) {
+        font-size: 56px;
+    }
+}

@@ -1,0 +1,35 @@
+.title {
+    margin-bottom: 12px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--iris);
+
+    @media (max-width: 1500px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 820px) {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+.description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--black-blue);
+
+    @media (max-width: 1500px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 820px) {
+
+        font-size: 14px;
+        line-height: 145%;
+    }
+}
